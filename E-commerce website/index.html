@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIXCO</title>
+    <!-- ---Swiper js---  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- -----Header Section-----  -->
+    <div class="main-container">
+      <section class="header-section">
+        <div class="navbar">
+          <div class="logo-1">
+            <img src="logo.png" />
+          </div>
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contacts</a>
+          </nav>
+          <div class="icons">
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+            <a href="#">Cart</a>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="mobile-icons">
+            <i class="fa-regular fa-circle-xmark close"></i>
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <!-- -----Swiper Slides-----  -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="slider03-1.jpg" /></div>
+        <div class="swiper-slide"><img src="slider03-2 (1).jpg" /></div>
+        <div class="swiper-slide"><img src="slider03-3.jpg" /></div>
+      </div>
+      <div class="swiper-button-next" id="next"></div>
+      <div class="swiper-button-prev" id="prev"></div>
+    </div>
+
+
+    <!-- -----Products Section-----  -->
+    <div class="container-1">
+      <div class="banner-1">
+        <h1>FOOTWEAR</h1>
+        <img src="shoes-img.png" alt="...shoes-img" />
+      </div>
+      <div class="banner-2">
+        <h1>WATCH</h1>
+        <img src="watch-img.png" alt="...watch-img" />
+      </div>
+      <div class="banner-3">
+        <h1>HAND BAG</h1>
+        <img src="bag-img.png" alt="...bag-img" />
+      </div>
+      <div class="banner-4">
+        <h1>EYE GLASSES</h1>
+        <img src="glasses-img.png" alt="...eyeglass-img" />
+      </div>
+      <div class="banner-5">
+        <h1>CLASSIC BELT</h1>
+        <img src="belt-img.png" alt="...Belt-img" />
+      </div>
+      <div class="banner-6">
+        <h1>MAKE-UP PRODUCTS</h1>
+        <img src="makeup-img.png" alt="...makeup-img" />
+      </div>
+      <div class="banner-7">
+        <h1>Jackets</h1>
+        <img src="lights.png" alt="...light-img" />
+      </div>
+      <div class="banner-8">
+        <h1>HEADPHONES</h1>
+        <img src="headphone.jpg" alt="...headphone-img" />
+      </div>
+    </div>
+
+
+    <!-- ---------Buttons Portion-----------  -->
+    <div class="container-3">
+      <div class="buttons">
+        <p class="menbutton active" onclick="men_block()">MEN</p>
+        <p class="kidbutton" onclick="kids_block()">KIDS</p>
+      </div>
+    </div>
+
+
+    <!-- -------Men' s Portion-----  -->
+     <div class="men-container">
+      <div class="men-cards">
+        <div class="card-1">
+          <img src="men-1-1.jpg" alt="men-img" />
+          <p>Lorem ipsum, dolor sit amet consectetur</p>
+          <h3>$16.0</h3>
+        </div>
+        <div class="card-2">
+          <img src="men-2-1.jpg" alt="men-img" />
+          <p>Lorem ipsum, dolor sit amet consectetur</p>
+          <h3>$16.0</h3>
+        </div>
+        <div class="card-3">
+          <img src="men-3-1.jpg" alt="men-img" />
+          <p>Lorem ipsum, dolor sit amet consectetur</p>
+          <h3>$16.0</h3>
+        </div>
+        <div class="card-4">
+          <img src="men-4-1.jpg" alt="men-img" />
+          <p>Lorem ipsum, dolor sit amet consectetur</p>
+          <h3>$16.0</h3>
+        </div>
+      </div>
+    </div> 
+
+
+    <!-- ----Kids Portion------  -->
+    <div class="kids-container">
+      <div class="kids-cards">
+        <div class="card-5">
+          <img src="kid-1.jpeg" alt="men-img" />
+          <p>Lorem ipsum, dolor sit amet consectetur</p>
+          <h3>$16.0</h3>
+        </div>
+        <div class="card-6">
+          <img src="kid-2.jpeg" alt="men-img" />
+          <p>Lorem ipsum, dolor sit amet consectetur</p>
+          <h3>$16.0</h3>
+        </div>
+        <div class="card-7">
+          <img src="kid-3.jpg" alt="men-img" />
+          <p>Lorem ipsum, dolor sit amet consectetur</p>
+          <h3>$16.0</h3>
+        </div>
+        <div class="card-8">
+          <img src="kid-4.jpg" alt="men-img" />
+          <p>Lorem ipsum, dolor sit amet consectetur</p>
+          <h3>$16.0</h3>
+        </div>
+      </div>
+    </div> 
+
+
+    <!-- -----Blog Section-----  -->
+     <div class="Blog-section">
+      <div class="blog-name">
+        <h1>BLOGS</h1>
+      </div>
+      <div class="blog-cards">
+        <div class="blog-card-1">
+          <img src="blog1.jpg" alt="...img" />
+          <div class="date">
+            <p>April,30 2018</p>
+            <p>Gixco-Creative</p>
+          </div>
+          <h4>STRING POCKET SHELVING BURGUNDY</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+            cumque quaerat quae repellat sequi labore.
+          </p>
+        </div>
+        <div class="blog-card-1">
+          <img src="blog2.jpg" alt="...img" />
+          <div class="date">
+            <p>April,30 2018</p>
+            <p>Gixco-Creative</p>
+          </div>
+          <h4>STRING POCKET SHELVING BURGUNDY</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+            cumque quaerat quae repellat sequi labore.
+          </p>
+        </div>
+        <div class="blog-card-1">
+          <img src="blog3.jpg" alt="...img" />
+          <div class="date">
+            <p>April,30 2018</p>
+            <p>Gixco-Creative</p>
+          </div>
+          <h4>STRING POCKET SHELVING BURGUNDY</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+            cumque quaerat quae repellat sequi labore.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- -----Contact Section------ -->
+    <div class="outer">
+      <div class="inner">
+        <h3>KEEP UPDATED</h3>
+        <p><i>Sign up for our newsletter to receive updates an exclusive offers.</i></p>
+        <div class="input">
+          <input placeholder="Enter Your Email">
+          <button>SUBSCRIBE</button>
+        </div>
+      </div>
+    </div>  
+
+    <!-- -----Brand Images-----  -->
+     <div class="logo">
+      <img src="brand1.png" />
+      <img src="brand2.png" />
+      <img src="brand3.png" />
+      <img src="brand4.png" />
+    </div>
+
+    <!-- -----Footer Section-----  -->
+     <div class="footer">
+      <div class="footer-section">
+        <div class="foot-1">
+          <h3>CUSTOMER SERVICES</h3>
+          <ul>
+            <li>
+              <p>Delivery & Returns</p>
+            </li>
+            <li>
+              <p>Trade Services</p>
+            </li>
+            <li>
+              <p>Privacy & Policy</p>
+            </li>
+            <li>
+              <p>FAQs</p>
+            </li>
+            <li>
+              <p>Term & Condition</p>
+            </li>
+          </ul>
+        </div>
+        <div class="foot-2">
+          <h3>ABOUT</h3>
+          <ul>
+            <li>
+              <p>News & Stories</p>
+            </li>
+            <li>
+              <p>Our Studio</p>
+            </li>
+            <li>
+              <p>Showroom</p>
+            </li>
+            <li>
+              <p>History</p>
+            </li>
+            <li>
+              <p>Term & Condition</p>
+            </li>
+          </ul>
+        </div>
+        <div class="foot-3">
+          <h3>SOCIAL MEDIA</h3>
+          <ul>
+            <li>
+              <p>Facebook</p>
+            </li>
+            <li>
+              <p>Twitter</p>
+            </li>
+            <li>
+              <p>Instagram</p>
+            </li>
+            <li>
+              <p>LinkedIn</p>
+            </li>
+            <li>
+              <p>YouTube</p>
+            </li>
+          </ul>
+        </div>
+        <div class="foot-4">
+          <h3>CUSTOMER SERVICES</h3>
+          <ul>
+            <li>
+              <p>Delivery & Returns</p>
+            </li>
+            <li>
+              <p>Trade Services</p>
+            </li>
+            <li>
+              <p>Privacy & Policy</p>
+            </li>
+            <li>
+              <p>FAQs</p>
+            </li>
+            <li>
+              <p>Term & Condition</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+    
+  </body>
+</html>
